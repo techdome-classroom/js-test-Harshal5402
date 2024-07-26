@@ -6,14 +6,13 @@ const getTotalIsles = function (grid) {
     const visited = Array.from({ length: rows }, () => Array(cols).fill(false));
     
     const directions = [
-        [1, 0],  // down
-        [-1, 0], // up
-        [0, 1],  // right
-        [0, -1]  // left
+        [1, 0],  
+        [-1, 0], 
+        [0, 1],  
+        [0, -1]  
     ];
     
     function dfs(row, col) {
-        // Mark this cell as visited
         visited[row][col] = true;
         
         for (const [dr, dc] of directions) {
