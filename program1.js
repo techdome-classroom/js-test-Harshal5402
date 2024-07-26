@@ -10,6 +10,7 @@ const getTotalIsles = function (grid) {
         if (i < 0 || i >= row || j < 0 || j >= cols || grid[i][j] !== "L") {
             return;
         }
+        
     }
     
     const directions = [
