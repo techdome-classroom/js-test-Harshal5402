@@ -4,7 +4,7 @@ const decodeTheRing = function (s, p) {
 
   while(sindex < s.length && pindex < p.length){
     if (p[pindex] === '*') {
-      if git (pindex === p.length -1) {
+      if (pindex === p.length -1) {
         return true;
       }
       let nextChar = p[pindex + 1];
