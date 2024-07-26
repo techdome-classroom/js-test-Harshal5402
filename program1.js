@@ -19,7 +19,7 @@ const getTotalIsles = function (grid) {
         dfs(i,j -1);
     };
     
-    for (let i = 0; i < row; i++) {
+    for (let i = 0; i < rows; i++) {
         for (let j = 0; j < cols; j++) {
             if (grid[i][j] === "L") {
                 dfs(i, j);
