@@ -10,7 +10,7 @@ const decodeTheRing = function (s, p) {
       let nextChar = p[pindex + 1];
       let nextCharindex = s.indexof(nextChar, sindex);
 
-      if (nex) {
+      if (nextCharindex === -1) {
         
       }
     }
