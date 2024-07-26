@@ -11,7 +11,7 @@ const getTotalIsles = function (grid) {
             return;
         }
 
-        grid[i][j = '#']
+        grid[i][j = '#';]
     }
     
     const directions = [
