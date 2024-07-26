@@ -7,7 +7,7 @@ const getTotalIsles = function (grid) {
     let islands = 0;
 
     cosnt dfs = (i, j) => {
-        if (i < 0 || i >= row || j < 0) {
+        if (i < 0 || i >= row || j < 0 || j >= cols || grid[i]) {
             
         }
     }
