@@ -19,28 +19,7 @@ const getTotalIsles = function (grid) {
         dfs(i,j -1);
     };
     
-    const directions = [
-        [1, 0],  
-        [-1, 0], 
-        [0, 1],  
-        [0, -1]  
-    ];
     
-    function dfs(row, col) {
-        visited[row][col] = true;
-        
-        for (const [dr, dc] of directions) {
-            const newRow = row + dr;
-            const newCol = col + dc;
-            
-            if (newRow >= 0 && newRow < rows &&
-                newCol >= 0 && newCol < cols &&
-                !visited[newRow][newCol] &&
-                grid[newRow][newCol] === 'L') {
-                dfs(newRow, newCol);
-            }
-        }
-    }
     
     let islandCount = 0;
     
