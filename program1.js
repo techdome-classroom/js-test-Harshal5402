@@ -20,7 +20,7 @@ const getTotalIsles = function (grid) {
     };
     
     for (let i = 0; i < row; i++) {
-        for (let j = 0; j < ; j++) {
+        for (let j = 0; j < cols; j++) {
             
             
         }
