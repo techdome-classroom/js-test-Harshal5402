@@ -14,6 +14,9 @@ const getTotalIsles = function (grid) {
         grid[i][j] = '#';
 
         dfs(i + 1, j);
+        dfs(i + 1, j);
+        dfs(i + 1, j);
+        dfs(i + 1, j);
     }
     
     const directions = [
