@@ -28,17 +28,6 @@ const getTotalIsles = function (grid) {
         }
     }
     
-    let islandCount = 0;
-    
-    for (let i = 0; i < rows; i++) {
-        for (let j = 0; j < cols; j++) {
-            if (grid[i][j] === 'L' && !visited[i][j]) {
-                dfs(i, j);
-                islandCount++;
-            }
-        }
-    }
-    
     return islandCount;
 };
 
