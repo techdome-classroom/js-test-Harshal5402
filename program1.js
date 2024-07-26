@@ -19,7 +19,10 @@ const getTotalIsles = function (grid) {
         dfs(i,j -1);
     };
     
-    
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        
+    }
     
     let islandCount = 0;
     
