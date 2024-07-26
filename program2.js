@@ -4,7 +4,9 @@ const decodeTheRing = function (s, p) {
 
   while(sindex < s.length && pindex < p.length){
     if (p[pindex] === '*') {
-      
+      if (pindex === p.length -1) {
+        
+      }
     }
   }
   };
