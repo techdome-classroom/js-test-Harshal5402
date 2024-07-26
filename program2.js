@@ -7,7 +7,8 @@ const decodeTheRing = function (s, p) {
       if (pindex === p.length -1) {
         return true;
       }
-      let nextChar = p
+      let nextChar = p[pindex + 1];
+      let nextCharindex = s.in
     }
   }
   };
