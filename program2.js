@@ -3,7 +3,9 @@ const decodeTheRing = function (s, p) {
   let pindex = 0;
 
   while(sindex < s.length && pindex < p.length){
-    pindex
+    if (p[pindex]) {
+      
+    }
   }
   };
   
