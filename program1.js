@@ -28,7 +28,7 @@ const getTotalIsles = function (grid) {
         }
     }
     
-    return island;
+    return islands;
 };
 
 module.exports = getTotalIsles;
